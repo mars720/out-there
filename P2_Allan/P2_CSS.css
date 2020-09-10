@@ -1,0 +1,266 @@
+* {
+  font-family: helvetica;
+  color: black;
+}
+/*No white space, whole page is used*/
+body {
+  margin: 0;
+  padding: 0;
+  margin-left: 18%;
+  margin-right: 18%;
+  background-color: gray;
+}
+p {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a :hover {
+  font-weight: bold;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+#left-container {
+  background-color: lightgoldenrodyellow;
+}
+#left-wrap {
+  display: grid;
+  height: 100%;
+}
+
+.right-container {
+  grid-column: 2/-1;
+  background-color: lightgrey;
+}
+
+#headshot {
+  border-radius: 46%;
+  margin-top: 25px;
+  /* will center
+  the image by displaying it in a block*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.contactHeaders {
+  text-align: center;
+  background-color: gray;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  color: lightgoldenrodyellow;
+  text-transform: uppercase;
+}
+/*CORRECT NAMING AND CLASS ALL TEXT PARAGRAPH WITH SIMILAR CS*/
+#about-p {
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.contact-section p {
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#contact-info {
+  list-style: none;
+  line-height: 1.5em;
+  padding-right: 5px;
+}
+#hobby-icons {
+  list-style: none;
+  bottom: 10px;
+}
+
+#hobby-icons li {
+  display: inline;
+  padding-right: 25px;
+}
+
+#page-header {
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+#test-cont {
+  display: grid;
+  height: 100%;
+  align-items: start;
+}
+st {
+  align-self: end;
+}
+
+#page-header p {
+  line-height: 0;
+}
+h1 {
+  color: black;
+}
+h1 span {
+  color: lightyellow;
+}
+p span {
+  border-bottom: 2px solid lightyellow;
+}
+#education h3 {
+  margin-top: 105px;
+  border-bottom: 2px solid lightyellow;
+  margin-left: 50px;
+  margin-right: 25%;
+  padding-bottom: 10px;
+  color: black;
+}
+.years {
+  float: left;
+  padding-left: 7%;
+  padding-top: 15px;
+}
+.info-headers {
+  padding-top: 15px;
+  text-align: justify;
+}
+
+#capital p {
+  padding-left: 35%;
+  padding-right: 12%;
+}
+#openclassrooms p {
+  padding-left: 35%;
+  padding-right: 12%;
+}
+
+.content-header {
+  margin-top: 50px;
+  border-bottom: 2px solid lightyellow;
+  margin-left: 50px;
+  margin-right: 25%;
+  padding-bottom: 10px;
+  color: black;
+}
+#hgoods p {
+  padding-left: 35%;
+  padding-right: 12%;
+}
+.right-container i {
+  padding-right: 10px;
+  color: lightyellow;
+}
+/*Bullet points for main content*/
+.fa-customize {
+  font-size: 10px;
+}
+.ref-sizing p {
+  padding-left: 13%;
+  padding-right: 10%;
+  text-align: justify;
+}
+
+#ref-content {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.fa-dotCircle {
+  font-size: 15px;
+}
+
+/*Responsiveness*/
+@media all and (max-width: 800px) {
+  .left-container {
+    display: block;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+  }
+
+  #img {
+    display: none;
+  }
+  #about-p {
+    padding-bottom: 5%;
+  }
+
+  .main-container {
+    display: block;
+  }
+  .years {
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 0.9em;
+    display: block;
+  }
+  .info-headers {
+    padding-left: 10%;
+    display: block;
+    text-align: justify;
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  .fa-customize {
+    display: none;
+  }
+  #ref-sizing p {
+    display: inline;
+  }
+
+  #hobbies {
+    display: none;
+  }
+  #hobby-icons {
+    display: none;
+  }
+  h1 {
+    padding-top: 5%;
+  }
+  h3 {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+  #page-header {
+    margin-top: 0%;
+  }
+  #about-p {
+    padding-bottom: 0%;
+    text-align: justify;
+  }
+ 
+  #headshot {
+    border-radius: 46%;
+    margin-top: 25px;
+    /*Will center
+  the image by displaying it in a block*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  #contact-info {
+    display: table;
+    margin: 0 auto;
+  }
+
+  #page-header {
+    text-align: center;
+  }
+  #page-header p {
+    text-align: center;
+  }
+}

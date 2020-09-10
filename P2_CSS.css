@@ -52,14 +52,14 @@ a :hover {
 
 .contactHeaders {
   text-align: center;
-  background-color: lightgray;
+  background-color: gray;
   padding-top: 7px;
   padding-bottom: 5px;
   color: lightgoldenrodyellow;
   text-transform: uppercase;
 }
-/*CORRECT NAMING AND CLASS ALL TEXT PARAGRAPH WITH SIMILAR CS*/
-#about-p {
+
+#about {
   text-align: justify;
   padding-left: 10%;
   padding-right: 10%;
@@ -208,8 +208,6 @@ p span {
     text-align: justify;
     font-style: italic;
     font-weight: 300;
-  }
-  .infoHeaders-content {
   }
 
   .fa-customize {

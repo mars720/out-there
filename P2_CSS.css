@@ -57,14 +57,18 @@ a :hover {
   padding-bottom: 5px;
   color: lightgoldenrodyellow;
   text-transform: uppercase;
+  border-left: solid lightgoldenrodyellow .1px;
 }
 
 #about {
   text-align: justify;
   padding-left: 10%;
   padding-right: 10%;
+  margin-bottom: 20%;
 }
-
+#hobbies-section {
+  height: .5vh;
+}
 .contact-section p {
   text-align: center;
   padding-left: 8px;
@@ -75,6 +79,8 @@ a :hover {
   list-style: none;
   line-height: 1.5em;
   padding-right: 5px;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
 #hobby-icons {
   list-style: none;

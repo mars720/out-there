@@ -57,14 +57,18 @@ a :hover {
   padding-bottom: 5px;
   color: lightgoldenrodyellow;
   text-transform: uppercase;
+  border-left: solid lightgoldenrodyellow .1px;
 }
-/*CORRECT NAMING AND CLASS ALL TEXT PARAGRAPH WITH SIMILAR CS*/
-#about-p {
+
+#about {
   text-align: justify;
   padding-left: 10%;
   padding-right: 10%;
+  margin-bottom: 20%;
 }
-
+#hobbies-section {
+  height: .5vh;
+}
 .contact-section p {
   text-align: center;
   padding-left: 8px;
@@ -75,6 +79,8 @@ a :hover {
   list-style: none;
   line-height: 1.5em;
   padding-right: 5px;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
 #hobby-icons {
   list-style: none;
@@ -243,13 +249,14 @@ p span {
  
   #headshot {
     border-radius: 46%;
+    margin-bottom: 5%;
     margin-top: 25px;
     /*Will center
   the image by displaying it in a block*/
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 27%;
   }
 
   #contact-info {
